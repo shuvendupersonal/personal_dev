@@ -73,6 +73,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Schema Include="EmployeeSchema.xsd">
+      <TypeName>EmployeeSchema</TypeName>
+      <Namespace>SampleBTProject</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
     <None Include="SampleBTProject.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
